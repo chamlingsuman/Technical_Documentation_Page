@@ -1,12 +1,9 @@
-** end of undefined **
-
-** start of undefined **
-
 @media only screen and (max-width: 600px) {
   body {
     background-color: white;
   }
 }
+
 #navbar{
   position: fixed;
   top: 0;
@@ -17,6 +14,7 @@
   height: 100%;
   border-right: solid gray; 
 }
+
 #navbar > header{
   font-family: sans-serif;
   font-weight: 400px;
@@ -24,9 +22,12 @@
   margin: 10px 0 0 10px;
   padding: 10px;
 }
+
 #navbar > ul{
   margin-left: 0;
+  padding-left: 0px;
 }
+
 #navbar > ul > li{
   list-style-type: none;
   font-size: 16px;
@@ -35,34 +36,42 @@
   color: rgb(107, 96, 96);
   border-top: 1px solid black;
 }
+
 #navbar > ul > li > a{
   text-decoration: none;
 }
+
 #main-doc{
   margin-left: 310px;
 }
+
 .main-section{
   font-family: sans-serif;
   margin-left: 10px;
   color: rgb(56, 43, 43);
   font-size: 15px;
 }
+
 .main-section > header{
   font-size: 28px;
   font-family: sans-serif;
   margin-top: 15px;
 }
+
 .main-section > ul > li{
   margin-left: 10px;
 }
+
  .main-section > ul > ul > li{
   margin: 10px 0 0 10px;
 }
+
 .main-section > p{
   font-family: sans-serif;
   margin-left: 15px;
   color: rgb(56, 43, 43);
 }
+
 code{
   display: block;
   text-align: left;
@@ -76,5 +85,3 @@ code{
   line-height: 2;
   border-radius: 5px;
 }
-
-** end of undefined **
