@@ -3,6 +3,9 @@
     background-color: white;
   }
 }
+#main-doc{
+  overflow-x: hidden;
+}
 
 #navbar{
   position: fixed;
